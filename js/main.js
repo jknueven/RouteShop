@@ -18,9 +18,9 @@
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',
-		      },
-		  },
-	    })
+		      		},
+		  		},
+	    	})
 	  	.state('category', {
 	  		url: "/category", 
 	  		views: {
@@ -31,9 +31,9 @@
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',
-		      },
-		  },
-	  	})
+		      		},
+		  		},
+	  		})
 	  	.state('list', {
 	  		url: "/lists", 
 	  		views: {
@@ -44,9 +44,9 @@
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',
-		      },
-		  },
-	  	})
+		     		},
+		  		},
+	  		})
 	  	.state('detail', {
 	  		url: "/details", 
 	  		views: {
@@ -57,8 +57,8 @@
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',
-		      },
-		  },
-	  	})
+		      		},
+		  		},
+	  		});
 	});
 })();

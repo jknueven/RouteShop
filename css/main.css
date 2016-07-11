@@ -1,0 +1,12 @@
+header {
+  text-align: center; }
+  header h1 {
+    font-family: Times New Roman, serif;
+    font-style: italic;
+    font-size: 40px; }
+
+footer {
+  border-top: 2px solid blue;
+  text-align: center; }
+  footer h3 {
+    font-size: 20px; }
