@@ -5,7 +5,7 @@
 	.module('shop', ['ui.router'])
 	.config(function($stateProvider, $urlRouterProvider) {
 
-	  	$urlRouterProvider.otherwise("/");
+	  	$urlRouterProvider.otherwise("/404");
 
 	  	$stateProvider
 	  	.state('home', {
@@ -13,8 +13,8 @@
 	  			views: {
       				'main': {
 		        	templateUrl: '../views/home.html',
-		        	controller: 'mainController',
-		        	controllerAs: 'main'
+		        	controller: 'homeController',
+		        	controllerAs: 'home',
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',
@@ -26,8 +26,8 @@
 	  		views: {
       				'main': {
 		        	templateUrl: '../views/cat.html',
-		        	controller: 'mainController',
-		        	controllerAs: 'main'
+		        	controller: 'catController',
+		        	controllerAs: 'category',
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',
@@ -39,8 +39,8 @@
 	  		views: {
       				'main': {
 		        	templateUrl: '../views/list.html',
-		        	controller: 'mainController',
-		        	controllerAs: 'main'
+		        	controller: 'listController',
+		        	controllerAs: 'list'
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',
@@ -52,8 +52,8 @@
 	  		views: {
       				'main': {
 		        	templateUrl: '../views/detail.html',
-		        	controller: 'mainController',
-		        	controllerAs: 'main'
+		        	controller: 'detailController',
+		        	controllerAs: 'detail'
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',
